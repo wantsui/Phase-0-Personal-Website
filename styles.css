@@ -2,8 +2,9 @@ body{
 	background: #e6f2ff;
 }
 
-.align_center{
+.common_align{
 	text-align: center;
+	background-color: white;
 }
 
 h1{
@@ -18,6 +19,7 @@ h1{
 footer>p{
 	font-size: 1.3em;
 	background-image: url("mspaint_placeholder_background.jpg");
+	padding: 2px 2px 2px 2px;
 }
 
 img{
@@ -25,10 +27,6 @@ img{
 	margin: auto;
 }
 
-
-ol{
-	display: block;
-}
 
 a:visited{
 	color: #3392ff;
@@ -39,4 +37,10 @@ a:visited{
 	border-width: 1px;
 	border-radius: 10px;
 	background-color: white;
+	padding: 1px 1px 1px 1px;
+}
+
+table{
+	font-size: .8em;
+
 }
